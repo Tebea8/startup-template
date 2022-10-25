@@ -4,7 +4,7 @@
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -27,7 +27,10 @@ body{
 }
 
 
-
+.First{
+    color: #fff;
+    opacity: 100%;
+}
 .HeadText ul{
     display: flex;
     justify-content: left;
@@ -41,10 +44,7 @@ body{
     margin-left: 70px;
     
 }
-.First{
-    color: #fff;
-    opacity: 100%;
-}
+
 .box2{
     width: 650px;
     height: auto;
@@ -66,7 +66,7 @@ h1{
     opacity: 60%;
 }
 .box2 .DiscussButton{
-    height: 70px;
+    
     width: 210px;
     background-color: #356DFF ;
     margin-top: 40px;
@@ -98,30 +98,52 @@ h1{
 .three{
     width: 705px;
     display: flex;
-    justify-content: left;
+    
 }
-.three div{
+.three .box31{
     padding-left: 60px;
     padding-top: 90px;
     width: 290px;
     margin-left: 30px;
+   
 
 }
 
-.three img{
+.background{
+    background-color: #d3d3d114;
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.three .box31 .img1{
     height: 235px;
     width: 235px;
+   
+}
+.three .img2{
+    height: 270px;
+    width: 270px;
     
 }
-.three h2{
+.three .img3{
+    height: 285px;
+    width: 285px;
+}
+.three .box31 h2{
     color: #fff;
     padding-top: 25px;
     padding-bottom: 20px;
     text-align: center;
 }
+
 .three p{
     color: #fff;
     opacity: 60%;
     font-size: 13px;
     text-align: center;
 }
+
+
