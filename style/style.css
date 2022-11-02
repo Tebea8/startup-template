@@ -13,7 +13,8 @@ body{
 .head{
     background-color: #1A1C46;
     height: 125px;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     border-radius: 60px;
     margin-left: 230px;
     margin-top: 30px;
@@ -46,7 +47,8 @@ body{
 }
 
 .box2{
-    width: 650px;
+    width: 100%;
+    max-width: 650px;
     height: auto;
     padding-left: 230px;
     padding-top: 90px;
@@ -67,7 +69,8 @@ h1{
 }
 .box2 .DiscussButton{
     
-    width: 210px;
+    width: 150px;
+    max-width: 210px;
     background-color: #356DFF ;
     margin-top: 40px;
     border-radius: 45px 45px 45px 10px;
@@ -80,7 +83,8 @@ h1{
 }
 .box3{
     height: 670px;
-    width: 1010px;
+    width: 100%;
+    max-width: 1010px;
     background-color: #1A1C46;
     border-radius: 30px;
     margin-top: 80px;
@@ -91,19 +95,22 @@ h1{
     color: #fff;
     padding-left: 390px;
     padding-top: 35px;
+    font-size: 60px;
 }
 .box3 h1 span{
     color: #356DFF;
 }
 .three{
-    width: 705px;
+    width: 100%;
+    max-width: 705px;
     display: flex;
     
 }
 .three .box31{
     padding-left: 60px;
     padding-top: 90px;
-    width: 290px;
+    width: 100%;
+    max-width: 290px;
     margin-left: 30px;
    
 
@@ -112,7 +119,8 @@ h1{
 .background{
     background-color: #d3d3d114;
     height: 205px;
-    width: 205px;
+    width: 100%;
+    max-width: 205px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -148,4 +156,22 @@ h1{
     text-align: center;
 }
 
+@media only screen  and ( max-width:600px){
+    .three{
+        width: 875px;
+        display: block;
 
+    }
+    .box3 h1{
+        padding: 24px;
+    }
+    .box3{
+        height: auto;
+    }
+    .HeadText ul{
+        display: block;
+        padding-top: 18px;
+
+    }
+
+}
